@@ -52,13 +52,13 @@
     }
   </style>
 </head>
-<body>
+<body class="dark-mode">
   <div class="container">
     <h2>India Standard Time</h2>
-    <div class="IndiaFlag">🇮🇳</div>
+    <!--     <div class="IndiaFlag">🇮🇳</div> -->
     <h1 id="clock"></h1>
     <p id="date"></p>
-    <button onclick="toggleMode()">Mode</button>
+<!--     <button onclick="toggleMode()">Mode</button> -->
   </div>
 
   <script>
@@ -75,10 +75,10 @@
     updateTime();
     setInterval(updateTime, 1000);
 
-    function toggleMode() {
-      const body = document.body;
-      body.classList.toggle('dark-mode');
-    }
+    // function toggleMode() {
+    //   const body = document.body;
+    //   body.classList.toggle('dark-mode');
+    // }
   </script>
 </body>
 </html>
